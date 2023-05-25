@@ -1,0 +1,82 @@
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+*{
+    font-family: 'NanumSquareRound',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #5B6BFF;
+    width: 120px;
+    overflow: hidden;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+    >ul{
+        position: relative;
+        top: 25%;
+        bottom: 25%;
+        transform: translate(0%);
+        user-select: none;
+        margin:auto;
+    }
+    >ul li{
+        position: relative;
+        padding-top: 20px;
+        >button{
+            background: none;
+            border: none;
+        }
+    }
+    >ul li i{
+        position: relative;
+        color: #fff;
+        font-size: 52px;
+        margin-left: 17px;
+        width: 78px;
+        height: 78px;
+        text-align: center;
+    }
+    >ul li span{
+        text-align:left;
+        position: fixed;
+        color: #fff;
+        font-size: 45px;
+        font-weight: 700;
+        margin-left: 25px;
+        width: 500px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    >ul li:hover{
+        background: #4454ff;
+    }
+}
+
+nav:hover{
+    width: 360px;
+}
+.contentContainer{
+    margin-left: 120px;
+}
+
+.tabNow span,
+.tabNow i{
+    color:azure;
+}
