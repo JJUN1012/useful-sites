@@ -8,7 +8,8 @@
 
 body{
     background: transparent linear-gradient(52deg, #d3daff 0%, #FFFFFF 100%) 0% 0% padding-box;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 100px;
     display: fixed;
 }
 
