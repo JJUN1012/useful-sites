@@ -94,3 +94,98 @@
         top: 246%;
     }
   }
+@media screen and (max-width: 768px) {
+    body{
+        height: 265vh;
+      }
+    .contentsIntro {
+      background-image: url(img/coding1Background.jpg);
+      width: 100vw;
+      height: 100vh;
+      background-size: cover;
+      position: fixed;
+      z-index: 0;
+      background-position: center;
+      > h2 {
+        width: 300px;
+        margin: 75px 75px 40px 75px;
+        > span {
+          font-weight: 700;
+          font-size: 60px;
+          color: #ffffff;
+        }
+        font-weight: 700;
+        font-size: 48px;
+        color: #ffffff;
+      }
+      > p {
+        margin: 30px 75px;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+      }
+    }
+    .contentsContainer{
+        width:100vw;
+      height: 100vh;
+      background: linear-gradient(52deg, rgb(247, 248, 255), hsl(222, 100%, 95%));
+      position: fixed;
+      border-top: rgb(209, 214, 255) solid 10px;
+      box-shadow: 0 10px 30px rgba(59, 59, 59, 0.8);
+      >img{
+        margin-top: 3vh;
+        margin-left: 10vw;
+        width: 80vw;
+        height: calc(80vw * 0.75);
+        }
+        >.contentsTextContainer{
+            margin-top: 1vh;
+            margin-left: 12vw;
+            >a>h3{
+                font-weight: 700;
+                font-size: 10vw;
+                color: #5B6BFF;
+            }
+            >a{
+                font-weight: 400;
+                font-size: 7vw;
+                color:#555555;
+            }
+            >p{
+                margin-top: 1vh;
+                width: 70vw;
+                font-size: 4vw;
+            }
+        }
+    }
+    .contentsLimit{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 1px;
+        
+    }
+    #contents1{ 
+        top:96vh;
+        z-index: 1;
+    }
+    #contents1Limit{
+        top: 94%;
+    }
+    #contents2{
+        top:180vh;
+        z-index: 2;
+    }
+    #contents2Limit{
+        top: 175%;
+    }
+    #contents3{
+        top:274vh;
+        z-index: 3;
+    }
+    #contents3Limit{
+        top: 266%;
+    }
+  }

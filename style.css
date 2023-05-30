@@ -87,70 +87,39 @@ li {
 @media screen and (max-width: 768px) {
     nav {
       position: fixed;
-      top: 0;
       bottom: 0;
-      height: 100%;
-      left: 0;
+      height: 100px;
       background: #5b6bff;
-      width: 60px;
+      width: 100vw;
       overflow: hidden;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-      transition: all 0.3s ease-in-out;
-      z-index: 2;
+      z-index: 100;
       > ul {
-        position: relative;
-        top: 50%;
-
-        transform: translateY(-50%);
+        display: flex;
         user-select: none;
+        text-align: center;
         margin: auto;
       }
       > ul li {
-        position: relative;
-        padding-top: 15px;
-        padding-left: 2px;
-        padding-right: 3px;
+        padding-top: 25px;
+        margin:auto;
         > button {
           background: none;
           border: none;
         }
       }
       > ul li i {
-        position: relative;
         color: #fff;
-        font-size: 26px;
-        margin-left: 6px;
-        width: 39px;
-        height: 39px;
+        font-size: 40px;
+        width: 100px;
+        height: 80px;
         text-align: center;
       }
       > ul li span {
-        text-align: left;
-        position: fixed;
-        color: #fff;
-        font-size: 23px;
-        font-weight: 700;
-        margin-left: 113px;
-        width: 500px;
-        height: 50px;
-        line-height: 26px;
+        display: none;
       }
-  
-      > ul li:hover {
-        background: #4454ff;
-      }
-    }
-  
-    nav:hover {
-      width: 180px;
-    }
-    .indexMainContainer {
-      margin-left: 60px;
-    }
-  
     .tabNow {
-      padding-left: 0px;
-      border-left: 3px solid #fff;
+      background: #4454ff;
     }
   }
-  
+}

@@ -2,7 +2,6 @@ function updateScrollPosition1(element) {
     var scrollTop = $(window).scrollTop();
     var newPosition = scrollTop;
     var scrollSpeed = Math.abs(newPosition) * 0.1;
-    // 특정 element의 스크롤 속도를 조건에 따라 바꿉니다.
     if (element.attr('id') === 'contents1') {
       if (scrollTop > 200) {
         scrollSpeed = 0;
@@ -28,7 +27,6 @@ function updateScrollPosition1(element) {
     var scrollTop = $(window).scrollTop();
     var newPosition = scrollTop;
     var scrollSpeed = Math.abs(newPosition) * 0.1;
-    // 특정 element의 스크롤 속도를 조건에 따라 바꿉니다.
     if (element.attr('id') === 'contents2') {
       if (scrollTop > 200) {
         scrollSpeed = 0;
@@ -54,7 +52,6 @@ function updateScrollPosition1(element) {
     var scrollTop = $(window).scrollTop();
     var newPosition = scrollTop;
     var scrollSpeed = Math.abs(newPosition) * 0.1;
-    // 특정 element의 스크롤 속도를 조건에 따라 바꿉니다.
     if (element.attr('id') === 'contents3') {
       if (scrollTop > 200) {
         scrollSpeed = 0;
