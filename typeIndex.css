@@ -8,12 +8,12 @@
 
 body{
     background: transparent linear-gradient(52deg, #d3daff 0%, #FFFFFF 100%) 0% 0% padding-box;
-    height: auto;
-    padding-bottom: 100px;
+    height: 100vh;
     display: fixed;
 }
 
 .indexTextContainer{
+    padding-bottom: 100px;
     >h1{
         text-align: center;
         font: normal normal bold 72px/90px NanumSquareRound;
@@ -48,7 +48,9 @@ body{
             box-shadow: 1px 1px 20px rgba(0,0,0,0.1);
             background-color: #fff;
             border: none;
-            transition: all 0.3s ease-in-out;
+            border-radius: 5%;
+            transition: transform 0.3s ease-in-out;
+            transition: background-color 0.3s ease-in-out;
             >i{
                 font-size: 7.8vw;
                 color: #5B6BFF;
@@ -75,6 +77,12 @@ body{
 }
 
 @media screen and (min-width: 1301px){
+    @media  screen and (max-height: calc(23.1vh + 310px)){
+        body{
+            height: calc(23.1vh + 310px);   
+        }
+    }
+    
     .typeIndexDetail{
         font: normal normal bold 24px/36px NanumSquareRound;
         letter-spacing: 0px;
@@ -136,6 +144,7 @@ body{
                 margin-right: 0;
             }
             >li button{
+                border-radius: 5%;
                 margin-bottom: 20px;
                 width: 60vw;
                 height: 60vw;
