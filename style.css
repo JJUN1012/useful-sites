@@ -27,7 +27,7 @@ li {
     overflow: hidden;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
-    z-index: 2;
+    z-index: 100;
     > ul {
       position: relative;
       top: 50%;
