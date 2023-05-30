@@ -2,12 +2,12 @@ window.onload = function() {
     const indexContainer = document.querySelector('.indexMainContainer');
     const windowWidth = window.innerWidth;
     if(windowWidth < 1920){
-        indexContainer.style.left = `-${1800 - windowWidth}px`;
+        indexContainer.style.left = `-${1920 - windowWidth}px`;
     }
     window.onresize = function() {
         const windowWidth = window.innerWidth;
         if(windowWidth < 1920){
-            indexContainer.style.left = `-${1800 - windowWidth}px`;
+            indexContainer.style.left = `-${1920 - windowWidth}px`;
         }else{
     
         }
@@ -15,7 +15,7 @@ window.onload = function() {
     window.onfocus = function() {
         const windowWidth = window.innerWidth;
         if(windowWidth < 1920){
-            indexContainer.style.left = `-${1800 - windowWidth}px`;
+            indexContainer.style.left = `-${1920 - windowWidth}px`;
         }else{
     
         }
