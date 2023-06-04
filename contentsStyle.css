@@ -33,6 +33,9 @@
 #contents5Limit{
     top: 418vh;
 }
+.contentsContainer img{
+    cursor: pointer;
+}
 /* 데스크톱 */
 @media screen and (min-width: 769px) {
     .contentsIntro {
