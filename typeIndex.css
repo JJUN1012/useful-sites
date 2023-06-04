@@ -8,8 +8,7 @@
 
 body{
     background: transparent linear-gradient(52deg, #d3daff 0%, #FFFFFF 100%) 0% 0% padding-box;
-    height: 100vh;
-    display: fixed;
+    height: 94vh;
 }
 
 .indexTextContainer{
@@ -19,7 +18,7 @@ body{
         font: normal normal bold 72px/90px NanumSquareRound;
         letter-spacing: 0px;
         color: #343434;
-        margin-top: 10vh;
+        margin-top: 6vh;
         >code{
             font: normal normal bold 104px/90px NanumSquareRound;
             letter-spacing: 0px;
@@ -38,7 +37,7 @@ body{
     >ul{
         margin: auto 5.5vw;
         display: flex;
-        margin-top: 11.1vh;
+        margin-top: 5vh;
         >li:not(:last-child) button{
             margin-right: 2.3vw;
         }

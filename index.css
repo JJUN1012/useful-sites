@@ -9,14 +9,14 @@
 body {
   background: transparent linear-gradient(52deg, #d3daff 0%, #ffffff 100%) 0% 0%
     no-repeat padding-box;
-  height: 100vh;
+  height: 100vh;  
   
   display: fixed;
 }
 @media(min-width: 1301px) {
-  @media (max-height: 960px){
+  @media (max-height: 810px){
     body{
-      height: 960px;
+      height: 810px;
     }
   }
   .indexImg {
@@ -35,7 +35,7 @@ body {
     font-family: 400;
     margin-left: 120px;
     margin-top: 170px;
-    margin-bottom: 250px;
+    margin-bottom: 12vh;
     white-space: nowrap;
     > h2 {
       font-size: 54px;

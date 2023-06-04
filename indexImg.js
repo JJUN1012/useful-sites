@@ -1,6 +1,9 @@
 window.onload = function() {
     const indexContainer = document.querySelector('.indexMainContainer');
     const windowWidth = window.innerWidth;
+    var bodyHeight = document.body.clientHeight;
+    var indexImg = document.getElementById('indexImg');
+    indexImg.style.height = bodyHeight + 'px';
     if(windowWidth < 1920 && windowWidth > 1300){
         indexContainer.style.left = `-${1920 - windowWidth}px`;
     }else if(windowWidth > 1920){
@@ -10,6 +13,9 @@ window.onload = function() {
     }
     window.onresize = function() {
         const windowWidth = window.innerWidth;
+        var bodyHeight = document.body.clientHeight;
+        var indexImg = document.getElementById('indexImg');
+        indexImg.style.height = bodyHeight + 'px';
         if(windowWidth < 1920 && windowWidth > 1300){
             indexContainer.style.left = `-${1920 - windowWidth}px`;
         }else if(windowWidth > 1920){
@@ -20,6 +26,9 @@ window.onload = function() {
     }
     window.onfocus = function() {
         const windowWidth = window.innerWidth;
+        var bodyHeight = document.body.clientHeight;
+        var indexImg = document.getElementById('indexImg');
+        indexImg.style.height = bodyHeight + 'px';
         if(windowWidth < 1920 && windowWidth > 1300){
             indexContainer.style.left = `-${1920 - windowWidth}px`;
         }else if(windowWidth > 1920){
