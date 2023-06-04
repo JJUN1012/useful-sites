@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contents4.css">
+        <link rel="stylesheet" href="contentsStyle.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="shortcut icon" href="img/title.png">
+        <title>자료조사: 논문관련</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="contents.js"></script>
+    </head>
+    <body>
+        <script src="https://kit.fontawesome.com/c6119dbcf1.js" crossorigin="anonymous"></script>
+
+        <div class="indexEntireContainer">
+            <nav>
+                <ul>
+                    <li><button type="button" onClick="location.href='index.html'">
+                        <i class="fa-solid fa-house"></i>
+                        <span>홈</span>
+                    </button></li>
+                    <li class="tabNow"><button type="button" onClick="location.href='searchIndex.html'">
+                        <i class="fa-solid fa-file"></i>
+                        <span>자료조사</span>
+                    </button></li>
+                    <li><button type="button" onClick="location.href='presentationIndex.html'">
+                        <i class="fa-solid fa-person-chalkboard"></i>
+                        <span>발표</span>
+                    </button></li>
+                    <li><button type="button" onClick="location.href='codingIndex.html'">
+                        <i class="fa-solid fa-terminal"></i>
+                        <span>코딩</span>
+                    </button></li>
+                    <li><button type="button" onClick="location.href='etcIndex.html'">
+                        <i class="fa-solid fa-guitar"></i>
+                        <span>기타</span>
+                    </button></li>
+                </ul>
+            </nav>
+            <div class="indexMainContainer">
+                <div class="contentsLimit"></div>
+                <div class="contentsIntro" style="background-image: url(img/search1Background.jpg);">
+                    <h2 style="color: #171717;"><span style="color: #171717;">논문</span> 자료 사이트</h2>
+                    <p style="color: #171717;">논문을 통한 전문지식을 얻을 수
+                        <br>있도록 도움을 주는 사이트</p>
+                </div>
+                <section class="contentsContainer" id="contents1">
+                    <img src="img/RISS.png" alt="RISS">
+                    <div class="contentsTextContainer">
+                        <a href="http://www.riss.kr/" target="_blank"><h3>RISS</h3></a>
+                        <a href="http://www.riss.kr/" target="_blank">www.riss.kr</a>
+                        <p>대학이 생산, 보유, 구독하는 모든 학술자원을 공통으로 이용할 수 있도록 개방된 학연구정보서비스 사이트이다.</p>
+                    </div>
+                </section>
+                <div class="contentsLimit" id="contents1Limit"></div>
+                <section class="contentsContainer" id="contents2">
+                    <img src="img/KISS.png" alt="KISS">
+                    <div class="contentsTextContainer">
+                        <a href="https://kiss.kstudy.com/" target="_blank"><h3>KISS</h3><a>
+                        <a href="https://kiss.kstudy.com/" target="_blank">kiss.kstudy.com</a>
+                        <p>다양한 키워드의 논문을 제공하여 빠른 검색 및 인용이 가능한 한국학술정보서비스 사이트이다.</p>
+                    </div>
+                </section>
+                <div class="contentsLimit" id="contents2Limit"></div>
+                <section class="contentsContainer" id="contents3">
+                    <img src="img/DBpia.png" alt="DBpia">
+                    <div class="contentsTextContainer">
+                        <a href="https://www.dbpia.co.kr/" target="_blank"><h3>DBpia</h3><a>
+                        <a href="https://www.dbpia.co.kr/" target="_blank">www.dbpia.co.kr</a>
+                        <p>학술지 이외에도 단행본, 자료, 잡지 등을 볼 수 있는 학술정보포털 사이트이다.</p>
+                    </div>
+                </section>
+                <div class="contentsLimit" id="contents3Limit"></div>
+                <section class="contentsContainer" id="contents4">
+                    <img src="img/semanticscholar.png" alt="DBpia">
+                    <div class="contentsTextContainer">
+                        <a href="https://www.semanticscholar.org/" target="_blank"><h3>SEMANRIC SCHOLAR</h3><a>
+                        <a href="https://www.semanticscholar.org/" target="_blank">www.semanticscholar.org</a>
+                        <p>앨런인공지능연구소에서 개발된 논문 요약 서비스 사이트이다. 긴 논문을 간결한 핵심문장으로 압축해준다는 장점을 가지고있다.</p>
+                    </div>
+                </section>
+                <div class="contentsLimit" id="contents4Limit"></div>
+            </div>
+        </div>
+    </body>
+</html>

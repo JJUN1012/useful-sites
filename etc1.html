@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contents3.css">
+        <link rel="stylesheet" href="contentsStyle.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="shortcut icon" href="img/title.png">
+        <title>기타: 문서관련</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="contents.js"></script>
+    </head>
+    <body>
+        <script src="https://kit.fontawesome.com/c6119dbcf1.js" crossorigin="anonymous"></script>
+
+        <div class="indexEntireContainer">
+            <nav>
+                <ul>
+                    <li><button type="button" onClick="location.href='index.html'">
+                        <i class="fa-solid fa-house"></i>
+                        <span>홈</span>
+                    </button></li>
+                    <li><button type="button" onClick="location.href='searchIndex.html'">
+                        <i class="fa-solid fa-file"></i>
+                        <span>자료조사</span>
+                    </button></li>
+                    <li><button type="button" onClick="location.href='presentationIndex.html'">
+                        <i class="fa-solid fa-person-chalkboard"></i>
+                        <span>발표</span>
+                    </button></li>
+                    <li><button type="button" onClick="location.href='codingIndex.html'">
+                        <i class="fa-solid fa-terminal"></i>
+                        <span>코딩</span>
+                    </button></li>
+                    <li class="tabNow"><button type="button" onClick="location.href='etcIndex.html'">
+                        <i class="fa-solid fa-guitar"></i>
+                        <span>기타</span>
+                    </button></li>
+                </ul>
+            </nav>
+            <div class="indexMainContainer">
+                <div class="contentsLimit"></div>
+                <div class="contentsIntro" style="background-image: url(img/etc1Background.jpg);">
+                    <h2><span>AI</span> 기반의 코딩 관련 사이트</h2>
+                    <p>AI 기반으로 내가 원하는 코드를 실시간으로 생성해주거나,
+                        <br>코드에 관련된 설명을 해주는 사이트들</p>
+                </div>
+                <section class="contentsContainer" id="contents1">
+                    <img src="img/phind.png" alt="phind">
+                    <div class="contentsTextContainer">
+                        <a href="https://phind.com/" target="_blank"><h3>Phind</h3></a>
+                        <a href="https://phind.com/" target="_blank">www.phind.com</a>
+                        <p>개발자를 위한 AI 검색 엔진, 사용자의 코드에 대한 질문에 답을 해주는 검색 엔진이다. 항상 최신 정보를 제공하는 대규모 AI 언어 모델로 구동되는 개발하는 과정에 있어 참고할 수 있는 사이트이다.</p>
+                    </div>
+                </section>
+                <div class="contentsLimit" id="contents1Limit"></div>
+                <section class="contentsContainer" id="contents2">
+                    <img src="img/chatGPT.png" alt="chatGPT">
+                    <div class="contentsTextContainer">
+                        <a href="https://chat.openai.com" target="_blank"><h3>chatGPT</h3><a>
+                        <a href="https://chat.openai.com/" target="_blank">chat.openai.com</a>
+                        <p>원하는 코드를 대화 형식으로 질문할 수 있고, 내용을 쉽게 설명받을 수 있는 사이트다. 또한, 코딩 외의 여러가지 과제에서도 쉽게 활용 가능한 사이트다.</p>
+                    </div>
+                </section>
+                <div class="contentsLimit" id="contents2Limit"></div>
+                <section class="contentsContainer" id="contents3">
+                    <img src="img/chatGPT.png" alt="chatGPT">
+                    <div class="contentsTextContainer">
+                        <a href="https://chat.openai.com" target="_blank"><h3>chatGPT</h3><a>
+                        <a href="https://chat.openai.com/" target="_blank">chat.openai.com</a>
+                        <p>원하는 코드를 대화 형식으로 질문할 수 있고, 내용을 쉽게 설명받을 수 있는 사이트다. 또한, 코딩 외의 여러가지 과제에서도 쉽게 활용 가능한 사이트다.</p>
+                    </div>
+                </section>
+                <div class="contentsLimit" id="contents3Limit"></div>
+            </div>
+        </div>
+    </body>
+</html>
